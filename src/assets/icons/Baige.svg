@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>x5/icon/Baige</title>
+    <desc>Created with Sketch.</desc>
+    <g id=".x5/icon/Baige" stroke="none" stroke-width="1"  fill-rule="evenodd">
+        <g transform="translate(4.000000, 4.000000)">
+            <circle id="BG" fill="#8B8B8B" cx="8" cy="8" r="8"></circle>
+            <text id="Num" font-family="OpenSans-SemiBold, Open Sans" font-size="10" font-weight="500" line-spacing="16" fill="#FFFFFF">
+                <tspan x="2.29199219" y="11">99</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

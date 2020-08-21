@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>x5/icon/Drop/right</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M10,6.71063109 C9.61,7.10063109 9.61,7.73063109 10,8.12063109 L13.88,12.0006311 L10,15.8806311 C9.61,16.2706311 9.61,16.9006311 10,17.2906311 C10.39,17.6806311 11.02,17.6806311 11.41,17.2906311 L16,12.7006311 C16.39,12.3106311 16.39,11.6806311 16,11.2906311 L11.41,6.70063109 C11.03,6.32063109 10.39,6.32063109 10,6.71063109 Z" id="path-1"></path>
+    </defs>
+    <g id=".x5/icon/Drop/right" stroke="none" stroke-width="1"  fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="icon/navigation/chevron_right_24px" fill="#171718" xlink:href="#path-1"></use>
+    </g>
+</svg>

@@ -1,0 +1,19 @@
+.ReactVirtualized__Grid {
+  outline: 'none';
+}
+.ReactVirtualized__Grid:focus {
+  outline: none;
+}
+.ReactVirtualized__Table__headerRow {
+  border-radius: 4px;
+  background-color: #d9d9d9;
+}
+.ReactVirtualized__Table__row:hover {
+ background-color: #B4EEE9
+}
+.ReactVirtualized__Table__headerColumn {
+  margin: 0;
+}
+/* .ReactVirtualized__Table__headerColumn:first-of-type {
+  margin: 0;
+} */

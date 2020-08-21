@@ -1,0 +1,119 @@
+{
+  "name": "boilerplate",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "bump": "npm version patch -m \"Release v%s\" && git push && git push --tags",
+    "check": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "tsc --noEmit && eslint --max-warnings=100 'src/**/*.{js,ts,tsx}'",
+    "lint:fix": "tsc --noEmit && eslint 'src/**/*.{js,ts,tsx}' --fix --max-warnings=0",
+    "lint:staged": "tsc --noEmit && lint-staged",
+    "build-storybook": "build-storybook -s public",
+    "storybook": "start-storybook -p 9009 -s public"
+  },
+  "dependencies": {
+    "@material-ui/core": "latest",
+    "@material-ui/icons": "latest",
+    "@material-ui/lab": "latest",
+    "@material-ui/pickers": "latest",
+    "@reduxjs/toolkit": "^1.3.6",
+    "@testing-library/react": "10.4.5",
+    "@testing-library/user-event": "12.0.11",
+    "@types/react-virtualized": "^9.21.9",
+    "@types/uuid": "^8.0.0",
+    "axios": "0.19.0",
+    "clsx": "^1.1.0",
+    "connected-react-router": "6.8.0",
+    "cookie": "^0.4.1",
+    "date-fns": "^2.15.0",
+    "global": "^4.4.0",
+    "history": "4.10.1",
+    "husky": "4.2.3",
+    "jest-fetch-mock": "^3.0.3",
+    "js-cookie": "^2.2.1",
+    "lint-staged": "^10.1.1",
+    "lodash": "^4.17.19",
+    "nanoid": "^3.1.9",
+    "puppeteer": "5.1.0",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-hook-form": "^5.7.2",
+    "react-redux": "7.2.0",
+    "react-router-dom": "5.1.2",
+    "react-scripts": "3.4.1",
+    "react-select": "^3.1.0",
+    "react-toastify": "^6.0.8",
+    "react-virtualized": "^9.21.2",
+    "redux": "4.0.5",
+    "redux-devtools-extension": "2.13.8",
+    "redux-first-history": "^4.5.0",
+    "redux-injectors": "^1.3.0",
+    "redux-saga": "^1.1.3",
+    "serve": "^11.3.0",
+    "styled-components": "^5.1.1",
+    "swagger-axios-codegen": "^0.10.5",
+    "use-debounce": "^3.4.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "tsc --noEmit && lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{{!(.storybook/**/*)}.js,ts,tsx}": [
+      "eslint --fix --max-warnings=0"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@storybook/addon-actions": "6.0.5",
+    "@storybook/addon-knobs": "6.0.5",
+    "@storybook/addon-links": "6.0.5",
+    "@storybook/addons": "6.0.5",
+    "@storybook/preset-create-react-app": "3.1.4",
+    "@storybook/react": "6.0.5",
+    "@types/classnames": "2.2.10",
+    "@types/history": "4.7.7",
+    "@types/jest": "26.0.8",
+    "@types/lodash": "4.14.158",
+    "@types/node": "14.0.27",
+    "@types/react-dom": "16.9.8",
+    "@types/react-modal": "3.10.6",
+    "@types/react-redux": "7.1.9",
+    "@types/react-router-dom": "5.1.3",
+    "@types/react-select": "^3.0.13",
+    "@types/styled-components": "^5.0.1",
+    "@typescript-eslint/eslint-plugin": "^2.26.0",
+    "@typescript-eslint/parser": "^2.26.0",
+    "babel-loader": "^8.1.0",
+    "customize-cra": "^0.9.1",
+    "customize-cra-react-refresh": "^1.0.1",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-typescript": "9.0.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-config-react-app": "5.2.1",
+    "eslint-plugin-import": "2.22.0",
+    "eslint-plugin-jsx-a11y": "6.2.3",
+    "eslint-plugin-prettier": "^3.1.3",
+    "eslint-plugin-react": "7.19.0",
+    "eslint-plugin-react-hooks": "3.0.0",
+    "prettier": "^2.0.2",
+    "react-app-rewired": "^2.1.5",
+    "typescript": "3.9.7"
+  }
+}
